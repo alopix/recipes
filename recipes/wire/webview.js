@@ -35,7 +35,4 @@ module.exports = (Ferdi) => {
 
 	Ferdi.loop(getMessages);
 
-	Ferdi.handleDarkMode(() => {
-		// No explicit support for this
-	});
 };
